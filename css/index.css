@@ -1,0 +1,102 @@
+@font-face {
+  font-family: WorkSans;
+  src: url(../assets/fonts/static/WorkSans-Regular.ttf);
+}
+@font-face {
+  font-family: WorkSansBold;
+  src: url(../assets/fonts/static/WorkSans-Bold.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  background: url(../assets/images/background-pattern-desktop.svg) no-repeat, url(../assets/images/background-pattern-desktop.svg) no-repeat;
+  background-position: top center, bottom center;
+  background-size: contain, cover;
+  background-color: hsl(275, 100%, 97%);
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  font-family: WorkSans;
+}
+
+.faqs {
+  background: url(../assets/images/wawe.jpg) no-repeat;
+  background-size: cover;
+  width: 625px;
+  border-radius: 1em;
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
+  -ms-border-radius: 1em;
+  -o-border-radius: 1em;
+  box-shadow: 10px 10px 400px 38px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 400px 38px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 400px 38px rgba(0, 0, 0, 0.75);
+}
+
+.wrapper {
+  margin: 2em 1.5em;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2em;
+}
+.heading__icon {
+  margin-right: 1em;
+  display: block;
+}
+.heading__h1 {
+  font-family: WorkSansBold;
+  font-size: 2.4em;
+  color: hsl(275, 100%, 97%);
+}
+
+.question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.question__h4 {
+  font-family: WorkSansBold;
+  color: hsl(0, 0%, 100%);
+  opacity: 0.6;
+}
+
+.paragraph {
+  color: hsl(0, 0%, 100%);
+  line-height: 1.4;
+  margin-top: 1.5em;
+}
+
+.line {
+  margin: 1em 0;
+}
+
+.hide {
+  display: none;
+}
+
+@media (max-width: 425px) {
+  body {
+    font-size: 15px;
+  }
+  .faqs {
+    width: 390px;
+  }
+}
+@media (max-width: 375px) {
+  body {
+    font-size: 14px;
+  }
+  .faqs {
+    width: 350px;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
