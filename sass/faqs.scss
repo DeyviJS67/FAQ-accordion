@@ -1,0 +1,52 @@
+.faqs{
+    background:url(../assets/images/wawe.jpg) no-repeat;
+    background-size: cover;
+    width: 625px;
+    border-radius: 1em;
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    -ms-border-radius: 1em;
+    -o-border-radius: 1em;
+    box-shadow: 10px 10px 400px 38px rgba(0,0,0,0.75);
+ -webkit-box-shadow: 10px 10px 400px 38px rgba(0,0,0,0.75);
+ -moz-box-shadow: 10px 10px 400px 38px rgba(0,0,0,0.75);
+ }
+ .wrapper{
+    margin: 2em 1.5em;
+ }
+ .heading{
+     display: flex;
+     align-items: center;
+     margin-bottom: 2em;
+     &__icon{
+         margin-right:1em;
+         display: block;
+     }
+     &__h1{
+         font-family: WorkSansBold;
+         font-size: 2.4em;
+         color: $light-pink;
+     }
+ }
+  
+ .question{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     &__h4{
+         font-family: WorkSansBold;
+         color: $white;
+         opacity: .6;
+     }
+ }
+ .paragraph{
+     color:$white ;
+     line-height: 1.4;
+     margin-top: 1.5em;
+ }
+ .line{
+     margin: 1em 0;
+ }
+ .hide{
+     display: none;
+ }

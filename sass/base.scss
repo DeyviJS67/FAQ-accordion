@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ body{
+    font-size: $size;
+    background: url(../assets/images/background-pattern-desktop.svg) no-repeat, url(../assets/images/background-pattern-desktop.svg) no-repeat;
+    background-position: top center, bottom center;
+    background-size: contain, cover;
+    background-color: $light-pink;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    font-family: WorkSans;
+ }

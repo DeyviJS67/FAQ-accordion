@@ -1,0 +1,19 @@
+
+@media (max-width:425px){
+    $size: 15px;
+    body{
+        font-size: $size;
+    }
+    .faqs{
+        width: 390px;
+    }
+}
+@media (max-width:375px){
+    $size: 14px;
+    body{
+        font-size: $size;
+    }
+    .faqs{
+        width: 350px;
+    }
+}
